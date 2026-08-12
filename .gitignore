@@ -15,6 +15,21 @@ maybe/
 *.bmp
 *.tiff
 
+# --- RAW 파일 (주 대상. 장당 25~50MB라 절대 올리면 안 됨) ---
+*.cr2
+*.cr3
+*.nef
+*.arw
+*.dng
+*.orf
+*.rw2
+*.raf
+*.pef
+*.srw
+
+# --- RAW 짝꿍 파일 (편집 정보) ---
+*.xmp
+
 # --- 파이썬 부산물 ---
 __pycache__/
 *.pyc
