@@ -1,0 +1,33 @@
+# --- 분류 결과 폴더 (git에 안 올림) ---
+keep/
+reject/
+애매/
+check/
+maybe/
+
+# --- 사진 파일 (혹시 레포 안에 들어와도 올라가지 않게) ---
+*.jpg
+*.jpeg
+*.png
+*.heic
+*.webp
+*.gif
+*.bmp
+*.tiff
+
+# --- 파이썬 부산물 ---
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+# --- OS 부산물 ---
+Thumbs.db
+.DS_Store
+
+# --- v2용 모델 파일 (용량 커서 안 올림) ---
+*.pt
+*.onnx
+*.bin
+models/

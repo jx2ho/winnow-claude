@@ -1,0 +1,4 @@
+# WiNNoW가 쓰는 라이브러리 (전부 무료·오프라인)
+Pillow          # 사진 열기·EXIF(촬영 시각) 읽기
+pillow-heif     # 아이폰 HEIC 사진도 열 수 있게
+exifread        # RAW(CR2·NEF·ARW 등)에서 촬영 시각 읽기
